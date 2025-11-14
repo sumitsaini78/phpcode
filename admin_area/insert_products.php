@@ -1,4 +1,6 @@
+<!-- insert products -->
 <?php
+
 include("../includes/connect.php");
 if (isset($_POST['insert_product'])) {
     $product_title = $_POST['product_title'];

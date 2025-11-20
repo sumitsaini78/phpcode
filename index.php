@@ -82,55 +82,7 @@ include('includes/connect.php');
             <div class="col-md-10">
                 <!-- products -->
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./images/mixed-fruits.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-                                    quidem.</p>
-                                <a href="#" class="btn btn-primary bg-info">Add To Cart</a>
-                                <a href="#" class="btn btn-primary  bg-secondary">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-2" style="width: 18rem;">
-                            <img src="./images/fruits2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary bg-info">Add To Cart</a>
-                                <a href="#" class="btn btn-primary  bg-secondary">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./images/fruits2.jpg" width="200px" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary bg-info">Add To Cart</a>
-                                <a href="#" class="btn btn-primary  bg-secondary">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./images/fruits2.jpg" width="200px" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary bg-info">Add To Cart</a>
-                                <a href="#" class="btn btn-primary  bg-secondary">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
+                                       <div class="col-md-4">
                         <div class="card" style="width: 18rem;">
                             <img src="./images/fruits2.jpg" width="200px" class="card-img-top" alt="...">
                             <div class="card-body">

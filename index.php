@@ -4,6 +4,7 @@ include('includes/connect.php');
 <!DOCTYPE html>
 <html lang="en">
 <!-- thirs  commit -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,22 +79,41 @@ include('includes/connect.php');
         </div>
         <!-- fourth-child -->
         <div class="row">
-            
+
             <div class="col-md-10">
-                <!-- products -->
-                <div class="row">
-                                       <div class="col-md-4">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./images/fruits2.jpg" width="200px" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                <!-- products to displayed -->
+                <div class="row px-3">
+                    <!-- fetching products -->
+                    <?php
+                    $select_query = "select * from `products`";
+                    $result_query = mysqli_query($conn, $select_query);
+                    // $row=mysqli_fetch_assoc($result_query);
+                    // echo $row['product_title'];
+                    while ($row = mysqli_fetch_array($result_query)) {
+                        $product_id = $row["product_id"];
+                        $product_title = $row["product_title"];
+                        $product_description = $row["product_description"];
+                        $product_image1 = $row["product_image1"];
+                        $product_price = $row["product_price"];
+                        $category_id = $row["category_id"];
+                        $brand_id = $row["brand_id"];
+                        echo "
+                         <div class='col-md-4'>
+                        <div class='card' style='width: 18rem;'>
+                            <img src='$product_image1' width='200px' class='card-img-top' alt='...'>
+                            <div class='card-body'>
+                                <h5 class='card-title'>$product_title </h5>
+                                <p class='card-text'>Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary bg-info">Add To Cart</a>
-                                <a href="#" class="btn btn-primary  bg-secondary">View More</a>
+                                <a href='' class='btn btn-primary bg-info'>Add To Cart</a>
+                                <a href='' class='btn btn-primary  bg-secondary'>View More</a>
                             </div>
                         </div>
                     </div>
+                        ";
+                    }
+                    ?>
+                   
                 </div>
             </div>
             <!-- sidenav -->

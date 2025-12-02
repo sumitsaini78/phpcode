@@ -109,7 +109,7 @@ include('includes/connect.php');
                                 <a href='' class='btn btn-primary  bg-secondary'>View More</a>
                             </div>
                         </div>
-                    </div>
+                    </div>  
                         ";
                     }
                     ?>

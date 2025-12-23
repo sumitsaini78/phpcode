@@ -3,7 +3,6 @@ include('includes/connect.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- thirs  commit -->
  
 <head>
     <meta charset="UTF-8">

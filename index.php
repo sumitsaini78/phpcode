@@ -3,7 +3,8 @@ include('includes/connect.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
- 
+<!-- third  commit -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +17,7 @@ include('includes/connect.php');
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-  
+
 <body>
     <!-- navbar -->
     <div class="container-fluid ">
@@ -33,7 +34,7 @@ include('includes/connect.php');
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li> 
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Products</a>
                         </li>
@@ -95,7 +96,7 @@ include('includes/connect.php');
                         $product_image1 = $row["product_image1"];
                         $product_price = $row["product_price"];
                         $category_id = $row["category_id"];
-                        $brand_id = $row["brand_id"];
+                        $brand_id = $row["brand_id"];   
                         echo "
                          <div class='col-md-4'>
                         <div class='card' style='width: 18rem;'>
@@ -112,7 +113,7 @@ include('includes/connect.php');
                         ";
                     }
                     ?>
-                   
+
                 </div>
             </div>
             <!-- sidenav -->
@@ -181,8 +182,8 @@ include('includes/connect.php');
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
